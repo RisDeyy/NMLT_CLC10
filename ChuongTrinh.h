@@ -1,8 +1,6 @@
 #include "PhanSo.h"
 #include "SoPhuc.h"
 
-void nhapPhuongTrinhSoThuc(float &A, float &B, float &C, float &D);
-void nhapPhuongTrinhPhanSo(PhanSo &A, PhanSo &B, PhanSo &C, PhanSo &D);
-void nhapPhuongTrinhSoPhuc(SoPhuc &A, SoPhuc &B, SoPhuc &C, SoPhuc &D);
-void nhapChuongTrinh();
-void xuatChuongTrinh();
+void xuatPhuongTrinh(char choice, int _choice, const double &A_r, const double &B_r, const double &C_r, const double &D_r, const PhanSo &A_f, const PhanSo &B_f, const PhanSo &C_f, const PhanSo &D_f,
+                    const SoPhuc &A_c, const SoPhuc &B_c, const SoPhuc &C_c, const SoPhuc &D_c);
+void ChuongTrinh();

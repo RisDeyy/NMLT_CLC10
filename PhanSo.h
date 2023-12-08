@@ -3,6 +3,7 @@ struct PhanSo{
     int mauSo;
 };
 
+void nhapPhuongTrinhPhanSo(PhanSo &A, PhanSo &B, PhanSo &C, PhanSo &D, int choice);
 void xuatPhanSo(const PhanSo &f);
-PhanSo nghiemPhanSo(PhanSo A, PhanSo B, PhanSo C, PhanSo D, int choice);
-void xuatNghiemPhanSo(PhanSo A, PhanSo B, PhanSo C, PhanSo D, int choice);
+PhanSo nghiemPhanSo(const PhanSo &A, const PhanSo &B, const PhanSo &C, const PhanSo &D, int choice);
+void xuatNghiemPhanSo(const PhanSo &A, const PhanSo &B, const PhanSo &C, const PhanSo &D, int choice);
