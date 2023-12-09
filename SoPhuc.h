@@ -1,6 +1,6 @@
 struct SoPhuc{
-    float phanThuc;
-    float phanAo;
+    double phanThuc;
+    double phanAo;
 };
 
 void nhapPhuongTrinhSoPhuc(SoPhuc &A, SoPhuc &B, SoPhuc &C, SoPhuc &D, int choice);
